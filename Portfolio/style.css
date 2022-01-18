@@ -5,6 +5,15 @@ html {
     height: 100%
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+}
 article,
 aside,
 details,
