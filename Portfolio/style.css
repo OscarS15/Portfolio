@@ -13,7 +13,21 @@ header {
     display: flex;
     justify-content: space-around;
     transition: 0.7s;
+    z-index: 1000;
 }
+
+#noti {
+    background-color: #3eea38;
+    width: 300px;
+    height: 40px;
+    color: white;
+    padding: 1vh;
+    z-index: 1000;
+    text-align: center;
+    display: none;
+    position: center;
+}
+
 article,
 aside,
 details,
@@ -758,7 +772,7 @@ textarea.w-select {
 .w-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 940px
+    max-width: 940px;
 }
 
 .w-container:after,
@@ -2239,7 +2253,8 @@ textarea.w-select {
 
 .section-2 {
     margin-top: 128px;
-    margin-bottom: 128px
+    margin-bottom: 128px;
+    margin-left: 30vh;
 }
 
 .columns-3,
@@ -2846,7 +2861,8 @@ textarea.w-select {
 }
 
 .section-12 {
-    margin-top: 128px
+    margin-top: 128px;
+    margin-left: 30vh;
 }
 
 .button-3 {
@@ -3212,4 +3228,4 @@ textarea.w-select {
         padding-left: 0;
         text-align: left
     }
-}
+} 
